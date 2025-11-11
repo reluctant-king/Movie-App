@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* background: url("path/to/your/image.jpg") no-repeat center center fixed; */
+  background-size: cover;
+}
+
+.heading {
+  color: white;
+}
+#navbar {
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  a:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transform: scale(1.1);
+  }
+}
